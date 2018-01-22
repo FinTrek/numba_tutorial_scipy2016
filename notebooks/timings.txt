@@ -1,0 +1,23 @@
+Timer unit: 1e-06 s
+
+Total time: 1.58361 s
+File: <ipython-input-1-ab37b7e7eed9>
+Function: sumulate at line 10
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    10                                           def sumulate(foo):
+    11         1            4      4.0      0.0      if not isinstance(foo, int):
+    12                                                   return
+    13                                               
+    14         1        22305  22305.0      1.4      a = numpy.random.random((1000, 1000))
+    15         1        59411  59411.0      3.8      a @ a
+    16                                               
+    17         1            2      2.0      0.0      ans = 0
+    18        13           20      1.5      0.0      for i in range(foo):
+    19        12           10      0.8      0.0          ans += i
+    20                                                   
+    21         1       500705 500705.0     31.6      bad_call(ans)
+    22         1      1001151 1001151.0     63.2      worse_call(ans)
+    23                                                   
+    24         1            7      7.0      0.0      return ans

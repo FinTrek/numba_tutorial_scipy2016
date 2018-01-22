@@ -147,3 +147,12 @@ python check_install.py
 Check out the video of the live tutorial at SciPy 2016 (filmed Monday 11 July).
 
 [![vid](./slides/tutorial-vid.png)](https://youtu.be/SzBi3xdEF2Y)
+
+
+
+# ADDENDUM
+
+This is a fork for my exploring Numba without needing to worry about accidentally trying to update by force of habit. 
+
+
+
